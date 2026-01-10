@@ -37,3 +37,10 @@ function MealsDetailsPage({ params }) {
 }
 
 export default MealsDetailsPage;
+
+// Image kui tuleb AWS-ist:
+{/* <Image
+  src={`https://maxschwarzmueller-nextjs-demo-users-image.s3.amazonaws.com/${meal.image}`}
+  alt={meal.title}
+  fill
+/> */}

@@ -26,3 +26,11 @@ export default function MealItem({ title, slug, image, summary, creator }) {
     </article>
   );
 }
+
+
+// kui AWS-ist võtta:
+// <Image
+//   src={`https://maxschwarzmueller-nextjs-demo-users-image.s3.amazonaws.com/${image}`}
+//   alt={title}
+//   fill
+// />
